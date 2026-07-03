@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nongvanhoang.github.io/tiem-chao-mam-mam/sitemap.xml
