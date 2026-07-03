@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiệm Cháo Măm Măm — Cháo dinh dưỡng cho bé | Bắc Sơn - Bình Gia, Lạng Sơn</title>
+<meta name="description" content="Cháo dinh dưỡng cho bé, hầm kỹ từ nguyên liệu tươi. Giao hàng tận nơi khu vực Bắc Sơn - Bình Gia, Lạng Sơn. Đặt cháo qua Zalo hoặc gọi 0968072261.">
+<style>
+  :root {
+    --cream: #FFF8ED;
+    --orange: #F2994A;
+    --orange-dark: #D9761F;
+    --green: #6FA96F;
+    --text: #3B2A1E;
+    --card: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+
+  header.hero {
+    background: linear-gradient(160deg, var(--orange) 0%, var(--orange-dark) 100%);
+    color: #fff;
+    padding: 32px 16px 40px;
+    text-align: center;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+  }
+  header.hero .logo-emoji { font-size: 48px; }
+  header.hero h1 { margin: 8px 0 4px; font-size: 26px; }
+  header.hero p.tagline { margin: 0 0 20px; font-size: 15px; opacity: 0.95; }
+
+  .cta-row { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 12px 18px; border-radius: 999px; font-weight: 600;
+    text-decoration: none; font-size: 15px;
+    border: 2px solid transparent;
+  }
+  .btn-primary { background: #fff; color: var(--orange-dark); }
+  .btn-outline { background: transparent; color: #fff; border-color: #fff; }
+
+  section { padding: 28px 0; }
+  h2.section-title {
+    font-size: 20px; color: var(--orange-dark); margin-bottom: 14px;
+    display: flex; align-items: center; gap: 8px;
+  }
+
+  .about-card {
+    background: var(--card); border-radius: 16px; padding: 18px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05); font-size: 15px;
+  }
+
+  .menu-group { margin-bottom: 22px; }
+  .menu-group h3 {
+    font-size: 16px; margin: 0 0 4px; color: var(--text);
+    border-bottom: 2px solid var(--orange); display: inline-block; padding-bottom: 2px;
+  }
+  .menu-group .note { font-size: 12.5px; color: #8a7a68; margin: 2px 0 10px; }
+  .menu-item {
+    background: var(--card); border-radius: 12px; padding: 12px 14px;
+    margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;
+    gap: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.04); font-size: 14.5px;
+  }
+  .menu-item .name { flex: 1; }
+  .menu-item .price { font-weight: 700; color: var(--orange-dark); white-space: nowrap; font-size: 13.5px; }
+
+  .rotating-list { columns: 2; column-gap: 16px; font-size: 13.5px; }
+  .rotating-list li { break-inside: avoid; margin-bottom: 6px; }
+  @media (max-width: 480px) { .rotating-list { columns: 1; } }
+
+  .delivery-card, .location-card {
+    background: var(--card); border-radius: 16px; padding: 16px 18px;
+    margin-bottom: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); font-size: 14.5px;
+  }
+  .delivery-card ul { margin: 8px 0 0; padding-left: 20px; }
+  .tag {
+    display: inline-block; background: #FDEBD8; color: var(--orange-dark);
+    border-radius: 999px; padding: 4px 10px; font-size: 12.5px; margin: 2px 4px 2px 0;
+  }
+  .location-card b { color: var(--orange-dark); }
+
+  .order-steps { background: var(--card); border-radius: 16px; padding: 18px 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+  .order-steps ol { margin: 0; padding-left: 20px; }
+  .order-steps li { margin-bottom: 6px; font-size: 14.5px; }
+
+  footer {
+    background: #3B2A1E; color: #fff; text-align: center; padding: 24px 16px;
+    font-size: 13px; margin-top: 20px;
+  }
+  footer .btn { margin: 4px; }
+  footer a.btn-primary { background: var(--orange); color: #fff; }
+  footer a.btn-outline { border-color: #fff; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="logo-emoji">🍼🥣</div>
+  <h1>Tiệm Cháo Măm Măm</h1>
+  <p class="tagline">Cháo dinh dưỡng cho bé — hầm kỹ, nguyên liệu tươi mỗi ngày<br>Bắc Sơn - Bình Gia, TP. Lạng Sơn</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="tel:0968072261">📞 Gọi đặt cháo</a>
+    <a class="btn btn-outline" href="https://zalo.me/0968072261" target="_blank" rel="noopener">💬 Nhắn Zalo</a>
+    <a class="btn btn-outline" href="https://www.facebook.com/share/19B6Ww4LbQ/" target="_blank" rel="noopener">👍 Fanpage</a>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section id="gioi-thieu">
+    <h2 class="section-title">🌾 Về tiệm</h2>
+    <div class="about-card">
+      Tiệm Cháo Măm Măm chuyên nấu cháo dinh dưỡng cho bé ăn dặm, hầm kỹ từ thịt cá tươi và các loại
+      hạt dinh dưỡng (hạt sen, óc chó, hạnh nhân, quinoa...). Thực đơn cháo cao cấp thay đổi luân
+      phiên mỗi ngày để bé không bị ngán, luôn có món mới giàu dinh dưỡng.
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2 class="section-title">🍛 Thực đơn</h2>
+
+    <div class="menu-group">
+      <h3>Cháo truyền thống</h3>
+      <p class="note">Bán cố định hàng ngày</p>
+      <div class="menu-item"><span class="name">Cháo Lợn - Gà - Tim - Chim câu</span><span class="price">10k / 15k / 20k</span></div>
+      <div class="menu-item"><span class="name">Cháo Tôm - Cá hồi</span><span class="price">15k / 20k / 25k</span></div>
+      <div class="menu-item"><span class="name">Cháo Cá hồi - Thịt bò - Tôm</span><span class="price">15k / 20k / 25k</span></div>
+    </div>
+
+    <div class="menu-group">
+      <h3>Cháo cao cấp</h3>
+      <p class="note">Đổi luân phiên 2 món/ngày (giá phổ biến 10k/15k/20k, món hải sản đặc biệt 15k-25k) — xem thực đơn hôm nay trên fanpage</p>
+      <ul class="rotating-list">
+        <li>🐸 Ếch om mướp hương, sốt yến mạch hạt sen</li>
+        <li>🐥 Gà ác/gà ta hầm niêu đất, hạt sen lá dứa</li>
+        <li>🐚 Trai / Ngao om củ quả</li>
+        <li>🦀 Ghẹ mix kiều mạch om dashi</li>
+        <li>🫀 Tim hầm bơ ghee, macca óc chó</li>
+        <li>🐟 Cá hồi sốt sữa óc chó yến mạch</li>
+        <li>🥘 Sườn hầm hạt sen</li>
+        <li>🥚 Trứng chim trĩ mix ngũ hạt</li>
+        <li>🫀 Tim bò om bí ngòi, quinoa ba màu</li>
+        <li>🏵 Bề bề om mướp hương, măng tây</li>
+        <li>🦐 Tôm biển sốt óc chó, ngô ngọt, phomai</li>
+        <li>🦌 Thịt nai hầm củ sen kỷ tử, phômai nhà làm</li>
+        <li>🫒 Lươn om nghệ mix đỗ xanh, hạt sen</li>
+        <li>🐷 Óc heo hấp bí đỏ mix thịt băm, hạt điều</li>
+        <li>🦆 Vịt ta hầm hạt kê, lá nếp, măng tây</li>
+        <li>🐖 Chân giò hầm nấm hạt sen</li>
+        <li>🦪 Bào ngư mix chim câu, đông trùng hạ thảo (35k/40k/45k)</li>
+        <li>🐟 Cá quả / cá chép om củ quả</li>
+        <li>🐦 Chim cút hầm đậu ngự sốt kem</li>
+        <li>🦪 Hàu sốt sen tươi</li>
+        <li>🦀 Cua đồng sốt lòng đỏ trứng gà</li>
+        <li>🐂 Bò hầm nhừ mix tam hạt, dầu bơ</li>
+        <li>🕊 Chim câu sốt cốm, hầm long nhãn táo đỏ</li>
+        <li>🥩 Bò Mỹ cuộn nấm kim châm, bơ Pháp</li>
+      </ul>
+    </div>
+
+    <div class="menu-group">
+      <h3>Cháo chè đậu xanh</h3>
+      <div class="menu-item"><span class="name">Cháo chè đậu xanh — ngọt ngào, đậm đà</span><span class="price">10k / 15k / 20k</span></div>
+    </div>
+
+    <div class="menu-group">
+      <h3>Các món súp</h3>
+      <div class="menu-item"><span class="name">Súp hải sản</span><span class="price">25k / 30k</span></div>
+      <div class="menu-item"><span class="name">Súp gà xé giò sợi nấm đông cô</span><span class="price">20k / 25k</span></div>
+      <div class="menu-item"><span class="name">Súp tôm sú thịt băm</span><span class="price">20k / 25k</span></div>
+      <div class="menu-item"><span class="name">Súp Lợn - Gà - Bò</span><span class="price">15k / 20k</span></div>
+    </div>
+
+    <div class="menu-group">
+      <h3>Ruốc Măm Măm (đóng lọ)</h3>
+      <p class="note">Bảo quản được lâu, mua để dành nấu dần</p>
+      <div class="menu-item"><span class="name">Ruốc tôm</span><span class="price">120k/lọ</span></div>
+      <div class="menu-item"><span class="name">Ruốc cá hồi rong biển</span><span class="price">110k/lọ</span></div>
+      <div class="menu-item"><span class="name">Ruốc cá hồi</span><span class="price">100k/lọ</span></div>
+    </div>
+  </section>
+
+  <section id="giao-hang">
+    <h2 class="section-title">🛵 Giao hàng & Đặt cháo</h2>
+    <div class="delivery-card">
+      <div>
+        <span class="tag">Bắc Sơn</span><span class="tag">Bình Gia</span><span class="tag">Đồng Ý</span>
+        <span class="tag">Vũ Sơn</span><span class="tag">Chiến Thắng</span><span class="tag">Vũ Lễ</span>
+        <span class="tag">Tân Tri</span><span class="tag">Bắc Quỳnh</span><span class="tag">Hưng Vũ</span>
+        <span class="tag">Trấn Yên</span><span class="tag">Vũ Lăng</span><span class="tag">Nhất Hoà</span>
+        <span class="tag">Tân Lập</span><span class="tag">Tân Hương</span>
+      </div>
+      <ul>
+        <li>Đơn hàng cách cửa hàng trên 5km: thu thêm <b>5.000đ/đơn</b> (1 đơn không giới hạn số cốc).</li>
+        <li>Khách ở xã vui lòng đặt trước <b>8h00 sáng</b>.</li>
+      </ul>
+    </div>
+    <div class="order-steps">
+      <b>Cách đặt cháo:</b>
+      <ol>
+        <li>Gọi điện hoặc nhắn Zalo/Facebook cho tiệm.</li>
+        <li>Để lại: <b>Số điện thoại / Địa chỉ / Số lượng / Thời gian nhận cháo</b>.</li>
+        <li>Tiệm xác nhận và giao cháo đúng giờ hẹn.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="dia-chi">
+    <h2 class="section-title">📍 Địa chỉ cơ sở</h2>
+    <div class="location-card">
+      <b>Cs1 — Bắc Sơn:</b> 46 Trần Đăng Ninh, Thị Trấn Bắc Sơn, TP. Lạng Sơn
+    </div>
+    <div class="location-card">
+      <b>Cs2 — Bình Gia:</b> Khu 6B (gần cầu Đông Mạ), Thị Trấn Bình Gia, TP. Lạng Sơn
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div>📞 Đặt cháo / góp ý: <a href="tel:0968072261"><b>0968072261</b></a></div>
+  <div class="cta-row" style="margin-top:12px;">
+    <a class="btn btn-primary" href="tel:0968072261">Gọi ngay</a>
+    <a class="btn btn-outline" href="https://zalo.me/0968072261" target="_blank" rel="noopener">Nhắn Zalo</a>
+    <a class="btn btn-outline" href="https://www.facebook.com/share/19B6Ww4LbQ/" target="_blank" rel="noopener">Fanpage</a>
+  </div>
+  <div style="margin-top:14px; opacity:0.7;">© Tiệm Cháo Măm Măm — Bắc Sơn - Bình Gia, Lạng Sơn</div>
+</footer>
+
+</body>
+</html>
